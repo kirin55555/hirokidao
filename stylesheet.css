@@ -1,0 +1,18 @@
+.basic {
+  color: #4682b4;
+}
+
+.image img {
+  width: 500px;
+  height: auto;
+}
+body {
+  background-image: url("https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=large");
+  background-attachment: fixed;
+  background-size: 800px;
+}
+
+.twitterlink h2 {
+  border: #a9ceec 8px solid;
+  border-radius: 20px;
+}
