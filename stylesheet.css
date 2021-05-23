@@ -5,14 +5,46 @@
 .image img {
   width: 500px;
   height: auto;
-}
-body {
-  background-image: url("https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=large");
-  background-attachment: fixed;
-  background-size: 800px;
+  opacity: 0.7;
 }
 
-.twitterlink h2 {
+.image {
+  background-color: #87cefa;
+  display: inline-block;
+}
+
+.image2 img {
+  float: right;
+  width: 700px;
+  height: auto;
+  opacity: 0.4;
+}
+
+.link {
+  float: right;
+}
+.weeknesses {
+  opacity: 0.7;
+  color: #4682b4;
+  letter-spacing: 5px;
+  text-decoration:line-through double;
+  display: inline-block;
+}
+
+body {
+  background-attachment: fixed;
+  background-size: 800px;
+  background: linear-gradient(45deg, rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.01)),
+  url(https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=900x900);
+}
+
+.twitterlink h3 {
   border: #a9ceec 8px solid;
   border-radius: 20px;
+  display: inline-block;
+}
+
+.Phrase {
+  letter-spacing: 20px;
+  font-size: 12px;
 }
