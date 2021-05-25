@@ -77,6 +77,18 @@ body {
   font-size: 12px;
 }
 
+@media (max-width: 1025px) {
+  .html2text {
+    position: absolute;
+    right: 20%;
+  }
+
+  .html3text {
+    position: absolute;
+    right: 20%;
+  }
+}
+
 
 
 
