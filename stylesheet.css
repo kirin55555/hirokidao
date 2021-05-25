@@ -30,6 +30,7 @@
   height: auto;
   opacity: 0.13;
 }
+
 .image4 img {
   position: absolute;
   left: 515px;
@@ -38,12 +39,16 @@
   height: auto;
   opacity: 0.13;
 }
+
+.images {
+  pointer-events: none;
+}
+
 .link {
   position: absolute;
-  left: 900px;
+  left: 80%;
   font-size: 30px;
   border-left: 10px solid #4682b4;
-
 }
 
 .weeknesses {
