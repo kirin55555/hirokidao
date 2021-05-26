@@ -82,7 +82,7 @@ body {
   url(https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=900x900);
 }
 
-@media (max-width: 1025px) {
+/*@media (max-width: 1025px) {
   .link {
     position: absolute;
     left: 520px;
@@ -96,5 +96,4 @@ body {
     left: 520px;
     font-size: 5px;
   }
-}
-
+}*/
