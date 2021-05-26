@@ -48,6 +48,7 @@
   position: absolute;
   left: 600px;
   font-size: 30px;
+  border-left: #4682b4 5px solid;
 }
 
 .weeknesses {
@@ -81,7 +82,7 @@ body {
   background: linear-gradient(45deg, rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.01)),
   url(https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=900x900);
 }
-@media (max-width: 1025px) {
+/*@media (max-width: 1025px) {
   .link {
     position: absolute;
     left: 0px;
