@@ -2,15 +2,15 @@
   color: #4682b4;
 }
 
+.image {
+  background-color: #87cefa;
+  display: inline-block;
+}
+
 .image img {
   width: 500px;
   height: auto;
   opacity: 0.8;
-}
-
-.image {
-  background-color: #87cefa;
-  display: inline-block;
 }
 
 .image2 img {
@@ -46,9 +46,8 @@
 
 .link {
   position: absolute;
-  left: 80%;
+  left: 600px;
   font-size: 30px;
-  border-left: 10px solid #4682b4;
 }
 
 .weeknesses {
@@ -57,13 +56,6 @@
   letter-spacing: 5px;
   text-decoration:line-through double;
   display: inline-block;
-}
-
-body {
-  background-attachment: fixed;
-  background-size: 800px;
-  background: linear-gradient(45deg, rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.01)),
-  url(https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=900x900);
 }
 
 .twitterlink h3 {
@@ -77,18 +69,31 @@ body {
   font-size: 12px;
 }
 
-@media (max-width: 1025px) {
-  .html2text {
-    position: absolute;
-    right: 20%;
-  }
+.header {
+  position: fixed;
+  font-size: 75%;
+  background: #4b0082;
+}
 
-  .html3text {
+body {
+  background-attachment: fixed;
+  background-size: 800px;
+  background: linear-gradient(45deg, rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.01)),
+  url(https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=900x900);
+}
+
+@media (max-width: 1025px) {
+  .link {
     position: absolute;
-    right: 20%;
+    left: 520px;
+    font-size: 15px;
   }
 }
 
-
-
-
+@media (max-width: 600px) {
+  .link {
+    position: absolute;
+    left: 520px;
+    font-size: 5px;
+  }
+}
