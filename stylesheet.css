@@ -84,7 +84,8 @@ body {
 @media (max-width: 1025px) {
   .link {
     position: absolute;
-    top: 800px;
+    left: 0px;
+    top: 830px;
     font-size: 40px;
   }
 }
@@ -92,7 +93,8 @@ body {
 @media (max-width: 600px) {
   .link {
     position: absolute;
-    top: 800px;
+    left: 0px;
+    top: 830px;
     font-size: 50px;
   }
 }*/
