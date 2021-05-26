@@ -15,8 +15,8 @@
 
 .image2 img {
   position: absolute;
-  left: 525px;
-  top: 600px;
+  left: 515px;
+  top: 510px;
   width: 700px;
   height: auto;
   opacity: 0.3;
@@ -24,7 +24,7 @@
 
 .image3 img {
   position: absolute;
-  right: 300;
+
   top: 400px;
   width: 500px;
   height: auto;
@@ -34,7 +34,7 @@
 .image4 img {
   position: absolute;
   left: 515px;
-  top: 5px;
+  top: 91px;
   width: 400px;
   height: auto;
   opacity: 0.13;
@@ -87,8 +87,8 @@ body {
   .link {
     position: absolute;
     left: 0px;
-    top: 860px;
-    font-size: 40px;
+    top: 900px;
+    font-size: 25px;
   }
 }
 
@@ -96,7 +96,7 @@ body {
   .link {
     position: absolute;
     left: 0px;
-    top: 860px;
-    font-size: 50px;
+    top: 1050px;
+    font-size:25px;
   }
-}*/
+}
