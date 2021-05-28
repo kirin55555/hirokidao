@@ -1,102 +1,91 @@
-.basic {
-  color: #4682b4;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>ひろきだぉのブログだよ</title>
+  <meta name="description" content="ひろきの自己紹介ページです">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
 
-.image {
-  background-color: #87cefa;
-  display: inline-block;
-}
+  a:link { color: #4682b4; }
+  a:visited { color: #4682b4; }
+  a:hover { color: #00ff7f; }
+  a:active { color: #4682b4; }
 
-.image img {
-  width: 500px;
-  height: auto;
-  opacity: 0.8;
-}
+  </style>
+</head>
+<body>
 
-.image2 img {
-  position: absolute;
-  left: 515px;
-  top: 510px;
-  width: 700px;
-  height: auto;
-  opacity: 0.3;
-}
+  <div class="basic">
 
-.image3 img {
-  position: absolute;
+    <header>
+        <h2>
+          <a href="index.html">ホーム　</a>
+          <a href="index4.html">一人暮らしの家計簿　</a>
+          <a href="index6.html">節約術　</a>
+          <a href="index2.html">休日の過ごし方　</a>
+          <a href="index7.html">趣味の話　</a>
+          <a href="index3.html">よく出かけるところ　</a>
+          <a href="index8.html">カジノコーナー　</a>
+          <a href="index9.html">紙芝居　</a>
+          <a href="index10.html">おみくじ　</a>
+          <a href="index5.html">沈没船　</a>
+          <a href="http://tdcha.xyz/chat/chat.php?id=kirin55">隠れ家　</a>
+        </h2>
+    </header>
 
-  top: 400px;
-  width: 500px;
-  height: auto;
-  opacity: 0.13;
-}
+    <br><br><br><br>
 
-.image4 img {
-  position: absolute;
-  left: 515px;
-  top: 91px;
-  width: 400px;
-  height: auto;
-  opacity: 0.13;
-}
 
-.images {
-  pointer-events: none;
-}
+    <div class="images">
 
-.link {
-  position: absolute;
-  left: 600px;
-  font-size: 30px;
-  border-left: #4682b4 5px solid;
-}
+      <div class="image">
+        <img src="https://pbs.twimg.com/media/E2NoYmpUYAAobOU?format=jpg&name=large" alt="ひろきだぉのプロフィール画像です^^">
+      </div>
 
-.weeknesses {
-  opacity: 0.7;
-  color: #4682b4;
-  letter-spacing: 5px;
-  text-decoration:line-through double;
-  display: inline-block;
-}
+      <div class="image2">
+        <img src="https://pbs.twimg.com/media/E2EbMUkUUAIuCKO?format=jpg&name=large">
+      </div>
 
-.twitterlink h3 {
-  border: #a9ceec 8px solid;
-  border-radius: 20px;
-  display: inline-block;
-}
+      <div class="image3">
+        <img src="https://pbs.twimg.com/media/E2J4uvEVgAQ2aiL?format=jpg&name=large">
+      </div>
 
-.Phrase {
-  letter-spacing: 20px;
-  font-size: 12px;
-}
+      <div class="image4">
+        <img src="https://pbs.twimg.com/media/E2J_UfIUcAQHTUw?format=jpg&name=900x900">
+      </div>
 
-.header {
-  position: fixed;
-  font-size: 75%;
-  background: #4b0082;
-}
+    </div>
 
-body {
-  background-attachment: fixed;
-  background-size: 800px;
-  background: linear-gradient(45deg, rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.01)),
-  url(https://pbs.twimg.com/media/E1_a11LVcAEeaqN?format=jpg&name=900x900);
-}
+    <h1>ひろきだぉのブログだぉ</h1>
+    <h2>プロフィール</h2>
 
-@media (max-width: 1025px) {
-  .link {
-    position: absolute;
-    left: 0px;
-    top: 900px;
-    font-size: 25px;
-  }
-}
+      <ul>
+        <li>趣味=>DOAXVV、レトロゲーム、ゲーム全般、漫画、アニメ、ポケモン</li>
+        <li>好きな食べ物=>チョコレート</li>
+        <li>自分の性格=>のうてんき</li>
+        <li>好きな言葉=>善は急げ、好きこそものの上手なれ</li>
+        <li>元whocaresチャット民
+        <li>夢=>海外移住、セミリタイア</li>
+        <li>弱点=>なし！<span class="weeknesses">料理、英語、地震、火事</span></li>
+      </ul>
 
-@media (max-width: 600px) {
-  .link {
-    position: absolute;
-    left: 0px;
-    top: 1050px;
-    font-size:25px;
-  }
-}
+
+    <h2>ひとこと</h2>
+      自分の趣味などメインでブログ内で発信していこうと思います。<br>
+      ミニマリストとして節約生活で楽に生きたいと考えているので節約術、<br>
+      お金の話もすると思います。ツイッターやっています。
+
+    <div class="twitterlink">
+      <a href="https://twitter.com/K_hiroki555"><h3>ツイッターはこちら</h3></a>
+    </div>
+
+    <div class="Phrase">
+      <marquee>よなかにおなかがすいたからといってこんびににいってはいけない</marquee>
+    </div>
+
+  </div>
+
+</body>
+</html>
